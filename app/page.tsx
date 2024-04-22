@@ -10,7 +10,7 @@ function Page() {
         <br />
         <div className="formbold-builder-form themeOne">
           <form
-            action="https://formbold.com/s/obpJp"
+            action="https://formbold.com/s/6rmyA"
             method="POST"
             className="mx-auto w-full max-w-[570px] rounded-[10px] border border-stroke bg-white p-10 themeOne"
           >
@@ -89,12 +89,12 @@ function Page() {
                   Manual Payment
                 </div>
               </Link>
-              <Link
+              <a
                 className="flex mt-5 cursor-pointer items-center justify-center rounded border border-primary bg-primary px-8 py-2 text-base font-medium text-white hover:bg-opacity-90"
                 href="/"
               >
                 RELOAD HERE
-              </Link>
+              </a>
             </div>
             <h1 className="text-red-600 text-lg text-center mt-5 font-bold">
               * Please Reload the page after submit

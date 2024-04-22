@@ -10,7 +10,7 @@ function Page() {
         <br />
         <div className="formbold-builder-form themeOne">
           <form
-            action="https://formbold.com/s/obpJp"
+            action="https://formbold.com/s/92KEY"
             method="POST"
             className="mx-auto w-full max-w-[570px] rounded-[10px] border border-stroke bg-white p-10 themeOne"
           >
@@ -89,12 +89,12 @@ function Page() {
                 <div className="inline-flex mt-5 cursor-pointer items-center justify-center rounded border border-primary bg-teal-500 px-8 py-2 text-base font-medium text-white hover:bg-opacity-90">
                   Manual Register
                 </div>
-                <Link
+                <a
                   className="flex mt-5 cursor-pointer items-center justify-center rounded border border-primary bg-primary px-8 py-2 text-base font-medium text-white hover:bg-opacity-90"
                   href="/manual-payment"
                 >
                   RELOAD HERE
-                </Link>
+                </a>
               </Link>
             </div>
             <h1 className="text-red-600 text-lg text-center mt-5 font-bold">
