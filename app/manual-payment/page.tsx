@@ -16,7 +16,7 @@ function Page() {
           >
             <div className="SortableItem fb-builder-item">
               <h3 className="static text-xl font-semibold leading-tight text-black sm:text-[28px]">
-                Register Manual Ilmoore
+                Register Manual payment Ilmoore
               </h3>
             </div>
             <div className="SortableItem fb-builder-item">
@@ -77,6 +77,7 @@ function Page() {
                 />
               </div>
             </div>
+
             <div className="btn-toolbar flex items-center space-x-3">
               <input
                 type="submit"
@@ -84,16 +85,16 @@ function Page() {
               />
             </div>
             <div>
-              <Link href="/manual-payment">
-                <div className="inline-flex mt-5 cursor-pointer items-center justify-center rounded border bg-teal-500 px-8 py-2 text-base font-medium text-white hover:bg-opacity-90">
-                  Manual Payment
+              <Link href="/">
+                <div className="inline-flex mt-5 cursor-pointer items-center justify-center rounded border border-primary bg-teal-500 px-8 py-2 text-base font-medium text-white hover:bg-opacity-90">
+                  Manual Register
                 </div>
-              </Link>
-              <Link
-                className="flex mt-5 cursor-pointer items-center justify-center rounded border border-primary bg-primary px-8 py-2 text-base font-medium text-white hover:bg-opacity-90"
-                href="/"
-              >
-                RELOAD HERE
+                <Link
+                  className="flex mt-5 cursor-pointer items-center justify-center rounded border border-primary bg-primary px-8 py-2 text-base font-medium text-white hover:bg-opacity-90"
+                  href="/manual-payment"
+                >
+                  RELOAD HERE
+                </Link>
               </Link>
             </div>
             <h1 className="text-red-600 text-lg text-center mt-5 font-bold">
